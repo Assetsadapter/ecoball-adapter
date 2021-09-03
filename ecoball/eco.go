@@ -21,7 +21,7 @@ import (
 )
 
 const (
-	Symbol    = "BSC"
+	Symbol    = "ECO"		
 )
 
 type WalletManager struct {
@@ -38,5 +38,5 @@ func NewWalletManager() *WalletManager {
 
 //FullName 币种全名
 func (wm *WalletManager) FullName() string {
-	return "bsc"
+	return "ecoball"
 }
