@@ -13,21 +13,22 @@
  * GNU Lesser General Public License for more details.
  */
 
-package bsc
+package eco
 
 import (
 	"encoding/hex"
 	"fmt"
+	"math/big"
+	"path/filepath"
+	"strings"
+	"testing"
+
 	"github.com/astaxie/beego/config"
 	"github.com/blocktree/openwallet/v2/common"
 	"github.com/blocktree/openwallet/v2/log"
 	"github.com/blocktree/quorum-adapter/quorum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/core/types"
-	"math/big"
-	"path/filepath"
-	"strings"
-	"testing"
 )
 
 var (

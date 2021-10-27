@@ -13,12 +13,13 @@
  * GNU Lesser General Public License for more details.
  */
 
-package bsc
+package eco
 
 import (
+	"testing"
+
 	"github.com/blocktree/openwallet/v2/log"
 	"github.com/blocktree/openwallet/v2/openwallet"
-	"testing"
 )
 
 func TestWalletManager_EthGetTransactionByHash(t *testing.T) {

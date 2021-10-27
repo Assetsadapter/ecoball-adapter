@@ -13,11 +13,12 @@
  * GNU Lesser General Public License for more details.
  */
 
-package bsc
+package eco
 
 import (
-	"github.com/blocktree/openwallet/v2/openwallet"
 	"testing"
+
+	"github.com/blocktree/openwallet/v2/openwallet"
 )
 
 func TestWalletManager_GetTokenBalanceByAddress(t *testing.T) {

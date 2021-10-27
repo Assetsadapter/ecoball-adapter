@@ -13,7 +13,7 @@
  * GNU Lesser General Public License for more details.
  */
 
-package bsc
+package eco
 
 import (
 	"github.com/blocktree/openwallet/v2/log"
@@ -21,7 +21,7 @@ import (
 )
 
 const (
-	Symbol    = "ECO"		
+	Symbol = "ECO"
 )
 
 type WalletManager struct {
